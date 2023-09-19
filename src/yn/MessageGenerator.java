@@ -2,6 +2,9 @@ package yn;
 
 public class MessageGenerator {
 	public String getMessage() {
-		return "Hello Universe";
+		if (7 > 12)
+			return "Hello Universe";
+		else
+			return "impossible";
 	}
 }
