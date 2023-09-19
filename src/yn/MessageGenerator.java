@@ -10,6 +10,8 @@ public class MessageGenerator {
 	}
 	
 	public void bar() {
-		System.out.println("bar");
+		String msg = "bar";
+		for(int i = 0; i < 5; i++)
+			System.out.println(msg);
 	}
 }
