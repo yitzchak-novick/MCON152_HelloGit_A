@@ -6,7 +6,8 @@ public class MessageGenerator {
 	}
 	
 	public void foo() {
-		System.out.println("foo");
+		String msg = "foo";
+		System.out.println(msg);
 	}
 	
 	public void bar() {
