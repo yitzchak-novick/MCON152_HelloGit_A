@@ -2,6 +2,6 @@ package yn;
 
 public class MessageGenerator {
 	public String getMessage() {
-		return "Hi";
+		return "How is everything?";
 	}
 }
