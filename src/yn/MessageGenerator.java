@@ -7,12 +7,19 @@ public class MessageGenerator {
 	
 	public void foo() {
 		String msg = "foo";
+		int x = 12;
+		for (int i = 0; i < x; i++)
+			msg += "*";
 		System.out.println(msg);
 	}
 	
 	public void bar() {
-		String msg = "bar";
-		for(int i = 0; i < 5; i++)
-			System.out.println(msg);
+		String msg = "BAR";
+		if (7 < 12)
+			msg += "hi";
+		else
+			msg += "bye";
+		
+		System.out.println(msg);
 	}
 }
