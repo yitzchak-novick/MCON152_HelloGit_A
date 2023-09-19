@@ -15,11 +15,8 @@ public class MessageGenerator {
 	
 	public void bar() {
 		String msg = "BAR";
-		if (7 < 12)
-			msg += "hi";
-		else
-			msg += "bye";
-		
 		System.out.println(msg);
 	}
+	
+
 }
